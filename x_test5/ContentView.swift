@@ -1,24 +1,52 @@
-//
-//  ContentView.swift
-//  x_test5
-//
-//  Created by MIN GI KIM on 7/21/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: Screen1View()) {
+                    Text("Go to Screen 1")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen2View()) {
+                    Text("Go to Screen 2")
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen3View()) {
+                    Text("Go to Screen 3")
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen4View()) {
+                    Text("Go to Screen 4")
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+            }
+            .navigationTitle("Main Screen")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
