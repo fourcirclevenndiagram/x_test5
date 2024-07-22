@@ -14,8 +14,8 @@ struct Screen1View: View {
             ZStack {
                 Circle()
                     .fill(Color.blue)
-                    .frame(width: 100, height: 100)
-                    .offset(x: animate ? 100 : -100, y: 0)
+                    .frame(width: 250, height: 250)
+                    .offset(x: animate ? 300 : -300, y: 0)
                     .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true))
                     .onAppear() {
                         self.animate.toggle()
