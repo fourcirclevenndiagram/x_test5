@@ -7,7 +7,7 @@ struct Screen2View: View {
     @State private var operation: String? = nil
     
     var body: some View {
-        VStack(spacing: 12) {
+        VStack(spacing: 15) {
             Text(display)
                 .font(.largeTitle)
                 .frame(maxWidth: .infinity, alignment: .trailing)
