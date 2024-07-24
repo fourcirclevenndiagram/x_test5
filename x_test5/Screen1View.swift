@@ -21,7 +21,7 @@ struct Screen1View: View {
                         self.animate.toggle()
                     }
             }
-            .frame(height: 200)
+            .frame(height: 100)
             
             Spacer()
 

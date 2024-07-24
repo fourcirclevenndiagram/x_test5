@@ -12,7 +12,7 @@ struct Screen3View: View {
                     .padding()
                     .background(Color.orange)
                     .foregroundColor(.white)
-                    .cornerRadius(8)
+                    .cornerRadius(27)
             }
             .padding()
         }
