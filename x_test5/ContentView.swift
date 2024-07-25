@@ -39,6 +39,15 @@ struct ContentView: View {
                         .cornerRadius(8)
                 }
                 .padding()
+                
+                NavigationLink(destination: Screen5View()) {
+                    Text("Go to Screen 5")
+                        .padding()
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
             }
             .navigationTitle("Main Screen")
         }

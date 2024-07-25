@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC596FDD2C525A81004E674A /* Screen5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FDC2C525A81004E674A /* Screen5View.swift */; };
 		CCA37EC82C4C766000E438F9 /* x_test5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA37EC72C4C766000E438F9 /* x_test5App.swift */; };
 		CCA37ECA2C4C766000E438F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA37EC92C4C766000E438F9 /* ContentView.swift */; };
 		CCA37ECC2C4C766200E438F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA37ECB2C4C766200E438F9 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC596FDC2C525A81004E674A /* Screen5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen5View.swift; sourceTree = "<group>"; };
 		CCA37EC42C4C766000E438F9 /* x_test5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x_test5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA37EC72C4C766000E438F9 /* x_test5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_test5App.swift; sourceTree = "<group>"; };
 		CCA37EC92C4C766000E438F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				CCA37EF32C4CC06800E438F9 /* Screen2View.swift */,
 				CCA37EF52C4CC08500E438F9 /* Screen3View.swift */,
 				CCA37EF72C4CC0AB00E438F9 /* Screen4View.swift */,
+				CC596FDC2C525A81004E674A /* Screen5View.swift */,
 			);
 			path = x_test5;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				CCA37EF22C4CC04500E438F9 /* Screen1View.swift in Sources */,
 				CCA37EF42C4CC06800E438F9 /* Screen2View.swift in Sources */,
 				CCA37ECA2C4C766000E438F9 /* ContentView.swift in Sources */,
+				CC596FDD2C525A81004E674A /* Screen5View.swift in Sources */,
 				CCA37EF82C4CC0AB00E438F9 /* Screen4View.swift in Sources */,
 				CCA37EF62C4CC08500E438F9 /* Screen3View.swift in Sources */,
 				CCA37EC82C4C766000E438F9 /* x_test5App.swift in Sources */,
